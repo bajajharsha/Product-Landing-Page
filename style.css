@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    
+}
+
+#header-img{
+    width: 60px;
+    float: left;
+}
+
+.main-heading {
+    color: pink;
+    font-size:40px;
+    font-family: 'Lobster', cursive;
+
+}
+.nav{
+    background-color: black;
+}
+.ul{
+    list-style: none;
+    text-align: center;
+  /* display:inline-block;  */
+}
+.ul > li{
+    float: right;
+    font-family: 'Lobster', cursive;
+
+}
+.nav-link{
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: pink;
+}
+.info{
+    background: url(https://cdsco.gov.in/opencms/export/system/modules/CDSCO.WEB/resources/img/slider/cosmetic_new1.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.enter-email{
+    /* text-align: center; */
+    margin: 20px;
+}
+.text{
+    margin-bottom: 10px;
+    color: pink;
+}
+#email{
+    height: 30px;
+    width:300px;
+}
+#submit{
+    background-color: rgb(218, 27, 59);
+    height: 30px;
+    width:80px;
+    font-weight: bold;
+}
+#features{
+    background: rgb(246, 152, 168);
+    border: 3px solid black;
+    background-attachment: fixed;
+}
+#features h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Noto Sans Display', sans-serif;
+    text-shadow: 8px 4px 8px rgba(150, 150, 150, 1);
+}
+#features ul{
+    list-style: none;
+}
+#features li{
+    font-size: 30px;
+    font-size: 30px;
+    margin: 50px;
+}
+#features p{
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+.fas{
+    font-size: 40px;
+    margin-right: 20px;
+}
+#categories{
+    background: black;
+    background-attachment: fixed;
+}
+#categories h1{
+    color: pink;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Noto Sans Display', sans-serif;
+    text-shadow: 8px 4px 8px rgba(150, 150, 150, 1);
+}
+.head{
+    font-size:40px;
+    font-family: 'Lobster', cursive;
+}
+.container{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cat1, .cat2, .cat3{
+    background-color: rgb(246, 152, 168);
+    text-align: center;
+    width: 300px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.cat1:hover, .cat2:hover, .cat3:hover{
+    box-shadow: 34px 31px 28px -27px rgb(246, 152, 168, 0.6);
+-webkit-box-shadow: 34px 31px 28px -27px rgba(248,223,129,0.75);
+-moz-box-shadow: 34px 31px 28px -27px rgba(248,223,129,0.75);
+}
+#offers .img1{
+    background: url(https://www.nykaa.com/media/wysiwyg/640x320_mobile_bestbeauty_30aug.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+}
+#offers h1{
+    text-align: center;
+    font-size: 40px;
+}
+#offers .img2{
+    background: url(https://cdn.static-zoutons.com/images/originals/blog/sugar_offers-03_1583559259.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+}
+@media all and (max-width: 620px){
+    .cat1, .cat2, .cat3{
+        background-color: purple;
+    }
+}
+
